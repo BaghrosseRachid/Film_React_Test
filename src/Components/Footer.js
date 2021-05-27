@@ -1,22 +1,21 @@
 import React from "react";
-import FacebookIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import YoutubeIcon from '@material-ui/icons/YouTube';
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from "../Utils/FooterStyles";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import { Box, Container, Row, Column, FooterLink } from "../Utils/FooterStyles";
 
 const Footer = () => {
   return (
     <Box>
-      <h1 style={{ color: "yellow", textAlign: "center", marginTop: "-50px", marginBottom:"20px" }}>
-        Nobo StartUp
+      <h1
+        style={{
+          color: "yellow",
+          textAlign: "center",
+          marginTop: "-50px",
+          marginBottom: "20px",
+        }}
+      >
+        Nobo Life
       </h1>
       <Container>
         <Row>
@@ -41,19 +40,17 @@ const Footer = () => {
           <Column>
             <FooterLink href="#">Social Media</FooterLink>
             <FooterLink href="#">
-              <FacebookIcon/>
-                <span style={{ marginLeft: "10px" }}>Facebook</span>
-            
+              <FacebookIcon />
+              <span style={{ marginLeft: "10px" }}>Facebook</span>
             </FooterLink>
             <FooterLink href="#">
-            <InstagramIcon/>
-                <span style={{ marginLeft: "10px" }}>Instagram</span>
+              <InstagramIcon />
+              <span style={{ marginLeft: "10px" }}>Instagram</span>
             </FooterLink>
             <FooterLink href="#">
-            <LinkedInIcon/>
-                <span style={{ marginLeft: "10px" }}>LinkedIn</span>
+              <LinkedInIcon />
+              <span style={{ marginLeft: "10px" }}>LinkedIn</span>
             </FooterLink>
-          
           </Column>
         </Row>
       </Container>

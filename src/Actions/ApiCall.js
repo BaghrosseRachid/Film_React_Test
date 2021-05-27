@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 
+//chercher les films saisis dans la bare de recherche
 export const fetchData = async (typedInMovieTitle, setMovies) => {
   try {
     const result = await axios(
@@ -12,6 +13,7 @@ export const fetchData = async (typedInMovieTitle, setMovies) => {
   }
 };
 
+//récupérer tout les films
 export const fetchAllShows = async (setAllShows) => {
   await axios(`https://api.tvmaze.com/shows`)
     .then((response) => {
