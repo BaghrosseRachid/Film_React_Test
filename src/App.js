@@ -1,21 +1,20 @@
 import React, { useState } from "react";
-import Header from "./Header";
-import Body from "./Body";
-import Footer from "./Footer";
-
-
+import Header from "./Components/Header";
+import Body from "./Components/Body";
+import Footer from "./Components/Footer";
+import { Fragment } from "react";
 
 export default function App() {
-    const [moviesOfAppComponent, setMoviesOfAppComponent] = useState(null);
-
-
-    
-    return (
-        <div>
-           
-            <Header setMoviesOfAppComponent={setMoviesOfAppComponent} />
-            <Body movies={moviesOfAppComponent} />
+  return (
+    <Fragment>
+          <div>
+          <Header />
+          <Body />
+          </div>
+          <div>
             <Footer />
-        </div>
-    )
+          </div>
+      </Fragment>
+    
+  );
 }
