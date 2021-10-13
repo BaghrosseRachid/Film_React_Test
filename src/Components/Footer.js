@@ -41,7 +41,7 @@ const Footer = () => {
             <FooterLink href="#">Social Media</FooterLink>
             <FooterLink href="#">
               <FacebookIcon />
-              <span style={{ marginLeft: "10px" }}>Facebook</span>
+              <span style={{ marginLeft: "11px" }}>Facebook</span>
             </FooterLink>
             <FooterLink href="#">
               <InstagramIcon />
