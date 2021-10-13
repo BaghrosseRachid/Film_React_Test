@@ -1,5 +1,3 @@
-# Test Live 
-https://movies-app-searcher.herokuapp.com/
 
 # Getting Started with Create React App
 
